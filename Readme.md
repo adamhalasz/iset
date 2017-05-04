@@ -1,17 +1,17 @@
 # isset
 An isset function useful for form validation.
 
-### Install
+## Install
 ```
 npm install iset
 ```
 
-### API
+## API
 ```js
 isset(value)
 ```
 
-### Usage
+## Usage
 
 ```js
 var isset = require('iset')
@@ -23,7 +23,7 @@ if(isset('my value')){
 }
 ```
 
-### Rules
+## Rules
 
 ```js
 isset(null) // returns "false"
@@ -36,8 +36,6 @@ isset("") // returns "false"
 isset(true) // returns "true"
 isset("true") // returns "true"
 ```
-
-### License
 
 
 ## License
