@@ -17,9 +17,9 @@ isset(value)
 var isset = require('iset')
 
 if(isset('my value')){
-	console.log('my value is set')
+    console.log('my value is set')
 } else {
-	console.log('my value is not set')
+    console.log('my value is not set')
 }
 ```
 
