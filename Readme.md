@@ -26,15 +26,15 @@ if(isset('my value')){
 ### Rules
 
 ```js
-    - isset(null) // returns "false"
-    - isset(false) // returns "false"
-    - isset("false") // returns "false"
-    - isset(undefined) // returns "false"
-    - isset({}) // returns "true"
-    - isset([]) // returns "false"
-    - isset("") // returns "false"
-    - isset(true) // returns "true"
-    - isset("true") // returns "true"
+isset(null) // returns "false"
+isset(false) // returns "false"
+isset("false") // returns "false"
+isset(undefined) // returns "false"
+isset({}) // returns "true"
+isset([]) // returns "false"
+isset("") // returns "false"
+isset(true) // returns "true"
+isset("true") // returns "true"
 ```
 
 ### License
