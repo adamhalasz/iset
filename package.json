@@ -1,0 +1,6 @@
+{
+	"name": "iset",
+	"description": "An isset function useful for form validation.",
+	"version": "1.0.0",
+	"tags": ["validation", "form validation", "isset", "set", "check", "check value", "existence", "exists"]
+}
